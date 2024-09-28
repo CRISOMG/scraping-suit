@@ -1,3 +1,4 @@
+import re
 
 def sum_times(time_strings):
     total_seconds = 0
@@ -20,3 +21,14 @@ def fomat_total_time(time_strings):
     total_minutes_remainder = total_minutes % 60
 
     return (total_hours, total_minutes_remainder, total_seconds_remainder, total_seconds)
+
+def extract_function(js_code, function_name):
+    # Regular expression to find the specific function
+    pattern = rf"function {function_name}\s*\(.*?\)\s*{{.*?}}"
+    match = re.search(pattern, js_code, re.DOTALL)  # re.DOTALL allows '.' to match newlines
+    
+    if match:
+        js_fn_str = match.group(0)  # Return the entire matched function
+        return lambda py_params = '': f"{js_fn_str} \n return {function_name}({py_params})"
+    else:
+        return None  # Function not found

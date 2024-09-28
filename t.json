@@ -1,0 +1,68 @@
+{
+    "Ingl0e9s B0e1sico A1": {
+        "path": "https://platzi.com/ruta/beginner-core/?school=_escuela_ingles_",
+        "title": "Ingl0e9s B0e1sico A1",
+        "courses": {
+            "Curso Gratis de Estrategias para Aprender Ingl0e9s en L0ednea": {
+                "title": "Curso Gratis de Estrategias para Aprender Ingl0e9s en L0ednea",
+                "qty": 12,
+                "time": [
+                    "01:50 min",
+                    "01:02 min"
+                ],
+                "total_time": "1H 8m 55s",
+                "path": "https://platzi.com/cursos/estrategias-ingles/"
+            },
+            "Curso de Ingl0e9s B0e1sico A1 para Principiantes": {
+                "title": "Curso de Ingl0e9s B0e1sico A1 para Principiantes",
+                "qty": 12,
+                "time": [
+                    "01:25 min",
+                    "04:48 min",
+                    "06:35 min",
+                    "03:18 min",
+                    "05:43 min",
+                    "02:50 min",
+                    "03:00 min",
+                    "02:42 min",
+                    "04:29 min",
+                    "01:49 min",
+                    "02:16 min",
+                    "01:33 min"
+                ],
+                "total_time": "0H 40m 28s",
+                "path": "https://platzi.com/cursos/ingles-a1-principiantes/"
+            }
+        },
+        "courses_qty": 12,
+        "total-lessons": 213
+    },
+    "Ingl0e9s B0e1sico A2": {
+        "path": "https://platzi.com/ruta/beginner-core2/?school=_escuela_ingles_",
+        "title": "Ingl0e9s B0e1sico A2",
+        "courses": {
+            "Curso Gratis de Estrategias para Aprender Ingl0e9s en L0ednea": {
+                "title": "Curso Gratis de Estrategias para Aprender Ingl0e9s en L0ednea",
+                "qty": 12,
+                "time": [
+                    "01:50 min",
+                    "01:02 min"
+                ],
+                "total_time": "1H 8m 55s",
+                "path": "https://platzi.com/cursos/estrategias-ingles/"
+            },
+            "Curso de Ingl0e9s B0e1sico A2: Preguntas y Respuestas Comunes": {
+                "title": "Curso de Ingl0e9s B0e1sico A2: Preguntas y Respuestas Comunes",
+                "qty": 17,
+                "time": [
+                    "02:12 min",
+                    "05:28 min"
+                ],
+                "total_time": "1H 48m 18s",
+                "path": "https://platzi.com/cursos/basico-preguntas-respuestas/"
+            }
+        },
+        "courses_qty": 14,
+        "total-lessons": 238
+    }
+}

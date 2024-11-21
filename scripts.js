@@ -9,3 +9,10 @@ function js_script_2(test) {
 function js_script_3() {
   return "ok";
 }
+function lol() {
+  try {
+    return null;
+  } catch (e) {
+    return `${e}`;
+  }
+}
